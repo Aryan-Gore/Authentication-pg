@@ -23,8 +23,8 @@
         width: 100%;
         max-width: 800px;
         height: 500px;
-        border: 2px solid #888888;
-        box-shadow: 0 0 25px #888888;
+        border: 2px solid #3a86ff;
+        box-shadow: 0 0 25px #3a86ff;
         overflow: hidden;
     }
 
@@ -188,7 +188,7 @@
 
     .field-wrapper input:focus,
     .field-wrapper input:valid {
-        border-bottom: 2px solid #888888;
+        border-bottom: 2px solid #3a86ff;
     }
 
     .field-wrapper label {
@@ -204,7 +204,7 @@
     .field-wrapper input:focus~label,
     .field-wrapper input:valid~label {
         top: -5px;
-        color: #888888;
+        color: #3a86ff;
     }
 
     .field-wrapper i {
@@ -218,7 +218,7 @@
 
     .field-wrapper input:focus~i,
     .field-wrapper input:valid~i {
-        color: #888888;
+        color: #3a86ff;
     }
 
     .submit-button {
@@ -230,7 +230,7 @@
         cursor: pointer;
         font-size: 16px;
         font-weight: 600;
-        border: 2px solid #888888;
+        border: 2px solid #3a86ff;
         overflow: hidden;
         z-index: 1;
     }
@@ -240,7 +240,7 @@
         position: absolute;
         height: 300%;
         width: 100%;
-        background: linear-gradient(#1a1a2e, #888888, #1a1a2e, #888888);
+        background: linear-gradient(#1a1a2e, #3a86ff, #1a1a2e, #3a86ff);
         top: -100%;
         left: 0;
         z-index: -1;
@@ -259,7 +259,7 @@
 
     .switch-link a {
         text-decoration: none;
-        color: #888888;
+        color: #3a86ff;
         font-weight: 600;
     }
 
@@ -364,7 +364,7 @@
         top: -5px;
         height: 600px;
         width: 850px;
-        background: linear-gradient(45deg, #1a1a2e, #888888);
+        background: linear-gradient(45deg, #1a1a2e, #3a86ff);
         transform: rotate(10deg) skewY(40deg);
         transform-origin: bottom right;
         transition: 1.5s ease;
@@ -383,7 +383,7 @@
         height: 700px;
         width: 850px;
         background: #1a1a2e;
-        border-top: 3px solid #888888;
+        border-top: 3px solid #3a86ff;
         transform: rotate(0deg) skewY(0deg);
         transform-origin: bottom left;
         transition: 1.5s ease;
@@ -567,3 +567,27 @@
             font-size: 13px;
         }
     }
+body {
+  background: #0a1128;
+}
+
+.auth-wrapper {
+  border: 2px solid #4361ee;
+  box-shadow: 0 0 30px rgba(58, 134, 255, 0.45);
+}
+
+.field-wrapper input:focus,
+.field-wrapper input:valid {
+  border-bottom: 2px solid #3a86ff;
+}
+
+.submit-button::before {
+  background: linear-gradient(
+    #0a1128,
+    #3a86ff,
+    #0a1128,
+    #9bbcff
+  );
+}
+
+    
